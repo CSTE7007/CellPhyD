@@ -1,0 +1,23 @@
+
+RAxML-NG v. 0.9.0git (CellPHY branch) released on 08.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 09-Oct-2021 20:41:39 as follows:
+
+./bin/raxml-ng-cellphy-linux --mutmap --msa input.vcf --model GT16+FO+E --tree input.vcf.raxml.bestTree --opt-branches off --prefix input.vcf.Mapped --force perf_threads
+
+Analysis options:
+  run mode: Mutation mapping
+  start tree(s): user
+  random seed: 1633790499
+  SIMD kernels: AVX
+  parallelization: PTHREADS (2 threads), thread pinning: OFF
+
+WARNING: Running in FORCE mode: some safety checks are disabled!
+
+
+ERROR: Alignment file not found: input.vcf
+
