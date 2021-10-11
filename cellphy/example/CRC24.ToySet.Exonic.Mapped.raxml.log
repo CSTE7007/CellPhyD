@@ -1,0 +1,59 @@
+
+RAxML-NG v. 0.9.0git (CellPHY branch) released on 08.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 11-Oct-2021 15:50:06 as follows:
+
+../bin/raxml-ng-cellphy-linux --mutmap --msa CRC24.ToySet.Exonic.vcf --model CRC24.VCF.GL16.Tree.raxml.bestModel --tree CRC24.VCF.GL16.Tree.raxml.bestTree --opt-branches off --prefix CRC24.ToySet.Exonic.Mapped --threads 1
+
+Analysis options:
+  run mode: Mutation mapping
+  start tree(s): user
+  random seed: 1633945806
+  SIMD kernels: AVX
+  parallelization: NONE/sequential
+
+[00:00:00] Reading alignment from file: CRC24.ToySet.Exonic.vcf
+[00:00:00] Loaded alignment with 25 taxa and 12 sites
+
+Alignment comprises 1 partitions and 12 sites
+
+Partition 0: noname
+Model: GT16{0.001/584.391/509.998/590.791/1/642.349/614.208}+FU{0.123922/0.1755/0.186539/0.142632/0.000124/0.000124/0.027287/0.013436/0.000124/0.000124/0.054291/0.119964/0.000124/0.000124/0.107389/0.048298}
+Alignment sites: 12
+Gaps: 32.67 %
+Invariant sites: 0.00 %
+
+
+[00:00:00] Loading user starting tree(s) from: CRC24.VCF.GL16.Tree.raxml.bestTree
+[00:00:01] Data distribution: max. partitions/sites/weight per thread: 1 / 12 / 192
+
+Starting ML tree search with 1 distinct starting trees
+
+[00:00:01] Tree #1, initial LogLikelihood: -880.648431
+
+[00:00:01 -880.648431] Initial branch length optimization
+[00:00:01 -880.648431] Model parameter optimization (eps = 0.100000)
+
+[00:00:01] Tree #1, final logLikelihood: -880.648431
+
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   Base frequencies (user): 0.123922 0.175500 0.186539 0.142632 0.000124 0.000124 0.027287 0.013436 0.000124 0.000124 0.054291 0.119964 0.000124 0.000124 0.107389 0.048298 
+   Substitution rates (user): 0.001000 0.001000 0.001000 584.390830 509.997874 590.790537 0.001000 0.001000 0.001000 584.390830 509.997874 590.790537 0.001000 0.001000 0.001000 0.001000 0.001000 584.390830 0.001000 0.001000 1.000000 642.348880 0.001000 584.390830 0.001000 0.001000 1.000000 642.348880 0.001000 0.001000 0.001000 509.997874 0.001000 1.000000 0.001000 614.207938 0.001000 509.997874 0.001000 1.000000 0.001000 614.207938 0.001000 0.001000 590.790537 0.001000 642.348880 614.207938 0.001000 0.001000 590.790537 0.001000 642.348880 614.207938 1.000000 642.348880 509.997874 590.790537 0.001000 0.001000 0.001000 0.001000 509.997874 590.790537 0.001000 614.207938 584.390830 0.001000 590.790537 0.001000 0.001000 0.001000 0.001000 0.001000 590.790537 0.001000 584.390830 509.997874 0.001000 0.001000 0.001000 0.001000 0.001000 0.001000 614.207938 642.348880 509.997874 0.001000 0.001000 0.001000 0.001000 642.348880 1.000000 590.790537 0.001000 0.001000 0.001000 0.001000 0.001000 0.001000 590.790537 0.001000 642.348880 0.001000 0.001000 1.000000 642.348880 0.001000 0.001000 0.001000 614.207938 584.390830 0.001000 0.001000 0.001000 584.390830 509.997874 614.207938 0.001000 1.000000 
+
+Branch-labeled tree saved to: /mnt/c/Users/MIKTech/Desktop/CellPhyD/cellphy/example/CRC24.ToySet.Exonic.Mapped.raxml.mutationMapTree
+Per-branch mutation list saved to: /mnt/c/Users/MIKTech/Desktop/CellPhyD/cellphy/example/CRC24.ToySet.Exonic.Mapped.raxml.mutationMapList
+
+Execution log saved to: /mnt/c/Users/MIKTech/Desktop/CellPhyD/cellphy/example/CRC24.ToySet.Exonic.Mapped.raxml.log
+
+Analysis started: 11-Oct-2021 15:50:06 / finished: 11-Oct-2021 15:50:07
+
+Elapsed time: 1.132 seconds
+
