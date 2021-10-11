@@ -1,0 +1,32 @@
+
+RAxML-NG v. 0.9.0git (CellPHY branch) released on 08.07.2021 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 10-Oct-2021 23:42:08 as follows:
+
+../bin/raxml-ng-cellphy-linux --support -tree CRC24.VCF.GL16.Tree.raxml.bestTree --bs-trees CRC24.VCF.GL16.Boot.raxml.bootstraps --prefix CRC24.VCF.GL16.Support --threads 1
+
+Analysis options:
+  run mode: Compute bipartition support (Felsenstein Bootstrap)
+  start tree(s): user
+  random seed: 1633887728
+  SIMD kernels: AVX
+  parallelization: NONE/sequential
+
+Reading reference tree from file: CRC24.VCF.GL16.Tree.raxml.bestTree
+Reference tree size: 25
+
+Reading bootstrap trees from file: CRC24.VCF.GL16.Boot.raxml.bootstraps
+Loaded 100 trees with 25 taxa.
+
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /mnt/c/Users/MIKTech/Desktop/CellPhyD/cellphy/example/CRC24.VCF.GL16.Support.raxml.support
+
+Execution log saved to: /mnt/c/Users/MIKTech/Desktop/CellPhyD/cellphy/example/CRC24.VCF.GL16.Support.raxml.log
+
+Analysis started: 10-Oct-2021 23:42:08 / finished: 10-Oct-2021 23:42:08
+
+Elapsed time: 0.096 seconds
+
